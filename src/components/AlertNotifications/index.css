@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.alert-notifications-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+}
+
+.success-color {
+  color: #2dca73;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.heading-success {
+  color: #2dca73;
+}
+
+.delete-icon {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.error-color {
+  color: #ff0b37;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.heading-error {
+  color: #ff0b37;
+}
+
+.warning-color {
+  color: #ffb800;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.heading-warning {
+  color: #ffb800;
+}
+
+.info-color {
+  color: #0f81e0;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.heading-info {
+  color: #0f81e0;
+}
